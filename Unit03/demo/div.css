@@ -1,0 +1,31 @@
+.style{
+	height: 200px;
+	float: left;
+}
+#header{
+	height: 50px;
+	width: 100%;
+	background-color: blue; 
+	clear: left;
+}
+#left{
+	width: 20%;
+	background-color: green; 
+}
+#menu{
+	width: 60%;
+	background-color: red; 
+}
+#right{
+	width: 20%;
+	background-color: green; 
+}
+#footer{
+	height: 50px;
+	width: 100%;
+	background-color: blue; 
+	clear: left;
+}
+div{
+	border-radius: 5px;
+}

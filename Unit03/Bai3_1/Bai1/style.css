@@ -1,0 +1,32 @@
+div.img {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 140px;
+	text-align: center;
+} 
+div.img:hover {
+	border: 1px solid red;
+}
+div.img img {
+	width:30%;
+	height: 80px;
+
+}
+div.desc {
+	padding: 10px;
+	text-align: center;
+}
+div.tenSP{
+	color: #EE8319;
+}
+div.gia{
+	color: red;
+	font-weight: bold;
+}
+div.tenSP:hover {
+	color: blue;
+}
+div.gia:hover {
+	color: blue;
+}

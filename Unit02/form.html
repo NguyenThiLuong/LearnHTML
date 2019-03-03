@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+</head>
+<body>
+	<form name="formDangKy">
+		<!-- cho phép người dùng nhập  -->
+		Họ tên: <input type="text" name="hoTen" value="" placeholder="Nhập họ tên vào đây..."> <br>
+		<!-- Cho phép người dùng chọn nhiều lựa chọn -->
+		Thời gian học:<br>
+		<input type="checkbox" name="thoiGianHoc" value="2">Thứ 2
+		<input type="checkbox" name="thoiGianHoc" value="3">Thứ 3
+		<input type="checkbox" name="thoiGianHoc" value="4">Thứ 4
+		<input type="checkbox" name="thoiGianHoc" value="5">Thứ 5 <br>
+		<input type="checkbox" name="thoiGianHoc" value="6">Thứ 6
+		<input type="checkbox" name="thoiGianHoc" value="7">Thứ 7
+		<input type="checkbox" name="thoiGianHoc" value="CN">chủ Nhật <br>
+		<!-- chọn 1 lựa chọn -->
+		Giới tính:<br>
+		<input type="radio" name="gioiTinh" value="nam" placeholder="">Nam
+		<input type="radio" name="gioiTinh" value="nu" placeholder="">Nữ <br>
+		<!-- mật khẩu -->
+		Mật khẩu:<br>
+		<input type="password" name="matKhau" value="" placeholder=""><br>
+		<!-- file upload -->
+		Hồ sơ đính kèm:<br>
+		<input type="file" name="hoSo" value="" placeholder=""><br>
+		Ngày sinh: <br> 
+		<input type="date" name="ngaySinh" value="" placeholder=""> <br> 
+		<!-- chọn 1 lựa chọn có nhiều thông tin -->
+		Tỉnh: <br>
+		<select name="tinh" >
+			<option value="HN">Hà Nội</option>
+			<option value="HP">Hải Phòng</option>
+			<option value="BN">Bắc Ninh</option>
+			<option value="HD">Hải Dương</option>
+			<option value="K" selected="">Tỉnh Khác</option>
+		</select><br> 
+		Ý kiến:<br>
+		<textarea name="yKien" rows="10" cols="50">Khác:</textarea> <br> 
+
+		<input type="submit" name="guiDangKy" value="Gửi Đăng Ký">
+		<input type="button" name="khac" value="Khác">
+		<input type="reset" name="nhapLai" value="Nhập Lại">
+
+	</form>
+	
+</body>
+</html>

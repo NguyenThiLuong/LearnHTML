@@ -1,0 +1,28 @@
+.o11{
+	width: 30px;
+	text-align: center;
+}
+.o12{
+	padding-left: 40px;
+	width: 180px;
+}
+.o21{
+	width: 30px;
+	text-align: center;
+}
+.o22{
+	padding-top: 10px;
+	width: 180px;
+	padding-left: 40px;
+}
+.ccao{
+	height: 40px;	
+/*	text-align: center;*/
+}
+span:hover {
+	color: #1BCFE6;
+	text-decoration: underline;
+}
+.div1{
+	float: left;
+}

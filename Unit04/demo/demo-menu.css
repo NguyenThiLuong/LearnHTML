@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style-type: none;
+}
+.menu{
+	width: 100px;
+	height: 50px;
+	border: 1px solid white;
+	color: white;
+	padding: 2px;
+	line-height: 50px;
+	text-align: center;
+	background-color: blue;
+}
+.menu-lv1{
+	float: left;
+	position: relative;
+}
+.parent-lv2{
+	display: none;
+	position: absolute;
+	top: 55px;
+	left: -1px;
+}
+.menu-lv1:hover .parent-lv2{
+	display: block;
+}
+.menu:hover{
+	background-color: lightblue;
+}

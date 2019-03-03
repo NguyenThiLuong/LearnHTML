@@ -1,0 +1,17 @@
+.menu-lv2 img{
+	
+}
+ul{
+	list-style: none;
+	width: 100%;
+	background-color: green;
+	color: white;
+
+}
+.menu-lv2{
+	float: left;
+	background-color: green;
+	border: 1px solid white;
+	width: 80px;
+    height: 42px;
+    line-height: 3;

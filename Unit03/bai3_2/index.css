@@ -1,0 +1,138 @@
+#container{
+	width: 800px;
+	border: 0px solid black;
+	margin: 100px;
+	margin-top: 10px;
+	background-color: white;
+	height: auto;
+	margin-bottom: 10px;
+}
+#header1{
+	background-image: url('123.jpg');
+	height: 350px;
+	margin: 5px;
+	padding-top:   10px;
+	clear: left;
+}
+#header2{
+	background-image: url('nav.gif');
+	height: 32px;
+	margin-top: -5px;
+	margin-left:  5px;
+	margin-right: 5px;
+	clear: left;
+}
+#header3{
+	color: gray;
+	height: 15px;
+	margin: 5px;
+	clear: left;
+}
+#content{
+	overflow: auto;
+	clear: left;
+}
+#footer{
+	background-image: url('nav2.gif');
+	height: auto;
+	text-align: center;
+	color: white;
+	margin: 5px;
+	padding: 10px;
+	font-size: 10px;
+	clear: left;
+
+}
+.tab{
+	width: 60px;
+	float: left;
+	padding-left: 5px;
+	padding-top: 10px;
+	border-right: 2px solid #8D817B;
+}
+.mauchu{
+	color: #EE6319;
+	font-size: 12px;
+	
+}
+#menuleft{
+	width: 19%;
+	margin: 5px;
+	float: left;
+}
+#baiviet{
+	width: 58%;
+	float: left;
+	margin: 5px;
+}
+#menuright{
+	width: 19%;
+	margin: 5px;
+	float: left;
+}
+
+.menu_child{
+	height: auto;
+	border: 1px solid black;
+}
+.menu_child1{
+	background-image: url('menu_bar.gif');
+	text-align: center;
+	color: white;
+	background-repeat: no-repeat;
+}
+.menu_child2{
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color: white;
+}
+a{
+	font-size: 12px;
+	text-decoration: unset;
+	line-height: 1.5;
+}
+#bv1{
+	background-color: #EB5607;
+	padding-top: 10px;
+	padding-left: 8px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	font-style: italic;
+	color: white;
+	opacity: 0.5;
+	text-align: justify;
+	font-size: 13px;
+}
+.bv2{
+	font-size: 13px;
+	height: 170px;
+}
+.backgroundleft{
+	background-image: url('main_bar_left.gif');
+	background-repeat: no-repeat;
+	text-align: left;
+	color: white;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.backgroundright{
+	background-image: url('main_bar_right.gif');
+	background-repeat: no-repeat;
+	text-align: right;
+	color: white;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+body{
+	background-image: url('tuyet.jpg');
+	width: auto;
+	height: auto;
+	background-repeat: repeat-y;
+
+}
+a:hover {
+	color: red;
+}

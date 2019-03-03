@@ -1,0 +1,37 @@
+
+ul{
+	list-style: none;
+	width: 100%;
+	color: white;
+
+}
+.menu-lv2{
+	float: left;
+	background-color: #41BF17;
+	border: 1px solid white;
+	width: 80px;
+    height: 42px;
+    line-height: 3;
+    font-size: 12px;
+    position: relative;
+}
+.menu-lv3{
+	padding: 0;
+    width: 134px;
+    position: absolute;
+    top: 42px;
+    left: -1px;
+    background-color: #75E550;
+    display: none;
+
+}
+.menu-lv2:hover .menu-lv3{
+	display: block;
+}
+.menu-lv3:hover li{
+	background-color: #41BF17;
+}
+.menu-lv3 li{
+	border: 0.5px solid white;
+	list-style: none;
+}
