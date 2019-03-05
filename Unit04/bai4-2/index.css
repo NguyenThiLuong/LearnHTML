@@ -8,30 +8,61 @@ ul{
 .menu-lv2{
 	float: left;
 	background-color: #41BF17;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	width: 80px;
     height: 42px;
     line-height: 3;
     font-size: 12px;
     position: relative;
+    text-align: center;
 }
 .menu-lv3{
 	padding: 0;
-    width: 134px;
+    width: 165px;
     position: absolute;
     top: 42px;
     left: -1px;
-    background-color: #75E550;
+    background-color: #41BF17;
     display: none;
 
 }
 .menu-lv2:hover .menu-lv3{
 	display: block;
 }
-.menu-lv3:hover li{
-	background-color: #41BF17;
+.menu:hover {
+	background-color: #75E550;
 }
-.menu-lv3 li{
-	border: 0.5px solid white;
-	list-style: none;
+.menu-lv3>li{
+	/*border: 0.5px solid white;*/
+	/*list-style: none;*/
+	text-align: left;
+}
+#icon{
+	line-height: 38px;
+	padding-right: 20px;
+	text-align: right;
+	border-left-width: 0px;
+}
+#parent-lv2{
+	left: -83px;
+}
+.menu-lv4{
+	position: relative;
+	
+}
+.parent-lv3{
+	position: absolute;
+	/*border: 1px solid white;*/
+	left: 163px;
+	top:-2px;
+	background-color: #41BF17;
+	padding: 0;
+	display: none;
+}
+.menu{
+	border: 1px solid white;
+	padding: 0;
+}
+.menu-lv4:hover>.parent-lv3{
+	display: block;
 }
