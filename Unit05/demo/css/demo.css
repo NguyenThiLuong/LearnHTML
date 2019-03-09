@@ -97,6 +97,9 @@ a{
 #ads{
 	margin-top:10px;
 	width:30%;
+	height: 1000px;
+	float: right;
+	background-color: #ccc;
 }
 #tin-nong .left img{
 	width: 100%;
@@ -130,9 +133,6 @@ a{
 	margin-right:13px;
 	margin-left:13px;
 }
-#tin-nong h2, #tin-nong h4,#tin-lien-quan h4{
-	/*text-align: justify;*/
-}
 #tin-tuc>hr{
 	width: 100%;
 	height: 5px;
@@ -141,9 +141,8 @@ a{
 }
 .tin-trong-ngay{
 	width: 100%;
-	height: 200px;
-	/*border: 1px solid #ccc;*/
-	margin-top: 50px;
+	height: 170px;
+	margin-top: 30px;
 	border-bottom: 1px solid #e8e1e1;
 }
 .tin-trong-ngay>img{
@@ -152,14 +151,8 @@ a{
 }
 .noi-dung{
 	width: 60%;
-	/*margin-top: 50px;*/
 	margin-left: 15px;
 }
-/*.tin-trong-ngay>hr{
-	width: 100%;
-	height: 1px;
-	margin-top: 20px;
-}*/
 .dang-chu-y{
 	background-color: #382d2d;
 	width: 100%;
@@ -178,22 +171,25 @@ a{
 	margin-left: 15px;
 }
 .tin-tong-hop{
-	width: 48%;
-	height: 500px;
+	width: 46%;
+	height: 400px;
 	padding-right: 12px;
 	padding-top: 30px;
-
 }
 .tin-tong-hop> .title{
 	width: 100%;
 	height: 30px;
 	padding-left: 17px;
 	line-height: 30px;
+	border-left: 10px solid red;
 }
 .tin-tong-hop>img{
 	width: 100%;
 	height: 200px;
 	margin-top: 12px;
+}
+.clear{
+	clear: both;
 }
 #footer{
 	clear: both;
@@ -255,4 +251,22 @@ a{
 }
 a:hover{
 	color: blue;
+}
+.tin-nho{
+	width: 29%;
+	height: 402px;
+	border-right: 1px solid #ccc;
+	margin: 20px 13px 25px 0px ;
+	padding-right: 15px;
+}
+.tin-nho>.head-tin-nho{
+	width: 86%;
+	height: 30px;
+	padding-left: 17px;
+	line-height: 30px;
+	border-left: 10px solid red;
+}
+.tin-nho>div{
+	/*height: 70px;*/
+	border-bottom: 1px solid #ccc;
 }
