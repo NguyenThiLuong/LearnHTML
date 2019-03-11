@@ -1,0 +1,115 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+</head>
+<body>
+	<ul class="parent-lv1">
+		<li class="menu-lv2">
+			<img src="img/24h_logo_trang_chu_2015.png">
+		</li>
+		<li class="menu-lv2">Xem danh m?c
+			<ul class="menu-lv3">
+				<li>Trang ch? 24h </li>
+				<li class="tintuc">Tin t?c trong ngày
+					<ul class="menu-lv4">
+						<li>Hà N?i</li>
+						<li>TP H? Chí Minh</li>
+						<li> Ðà N?ng</li>
+						<li>C?n Tho</li>
+					</ul>
+				</li>
+				<li>Bóng dá </li>
+				<li> Th? gi?i</li>
+				<li> Th?i trang</li>
+			</ul>
+		</li>
+		<li class="menu-lv2">Tin t?c Qu?c t?</li>
+		<li class="menu-lv2">Hi-tech</li>
+		<li class="menu-lv2">showbiz</li>
+		<li class="menu-lv2">Gi?i trí</li>
+	</ul>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+////css///////////
+
+
+
+
+
+.menu-lv2> img{
+	background-color: green
+}
+ul{
+	list-style: none;
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0px;
+	background-color: #29da29;
+
+}
+.menu-lv2{
+	float: left;
+	padding:  0 10px;
+	border-right: 1px white solid;
+	height: 60px;
+	line-height: 60px;
+	position: relative;
+}
+.menu-lv3{
+	position: absolute;
+	top: 60px;
+	left:0px;
+	width: 200px;
+	display: none;
+}
+.menu-lv3>li{
+	border-top: 0.5px white solid;
+	padding-left: 10px;
+}
+.tintuc{
+	position: relative;
+}
+.menu-lv4{
+	position: absolute;
+	left: 100%;
+    top: 0;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 1px;
+    display: none;
+}
+.menu-lv4>li{
+	border-top: 0.5px white solid;
+}
+.tintuc:hover .menu-lv4{
+	display: block;
+	/*background-color: #0c4c0c*/
+}
+.menu-lv2:hover .menu-lv3{
+	display: block;
+	/*background-color: #0c4c0c*/
+}
+li{
+	cursor:pointer;
+}
+

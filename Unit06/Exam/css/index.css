@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	margin: 0 auto;	
+}
+.menu{
+	position: relative;
+	text-align: center;
+}
+.menu>li{
+	display: inline-block;
+	list-style: none;
+	width: 11%;
+}
+.menu>li>a{
+	position: absolute;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: -8%;
+}
+.menu>li>img{
+	width: 116%;
+	padding: 6%;
+}
+a{
+	text-decoration: unset;
+	color: black;
+}
+a:hover{
+	color: #a79595;
+	text-decoration: underline;
+}
+#container{
+	background-color: #ccc;
+	width: 100%;
+	margin-top: -75px;
+}
+#container>h1{
+	color: green;
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+	padding-top: 80px;
+}
+#container>p{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	padding: 3%;
+}
+.noi-dung{
+	margin: 0 auto;
+	padding: 2% 8%;
+
+}
+.content{
+	width: 30%;
+	height: 260px;
+	float: left;
+	margin-right: 2%;
+	margin-top: 2%;
+}
+.content:hover{
+	background-color: #e4dd3f;
+}
+.content>img{
+	height: 180px;
+	width: 99%;
+	border: 2px solid #d0770d;
+
+}
+h4,h2{
+	color: green;
+}
+#thong-tin{
+	padding: 5% 8%;
+}
+.thong-tin-left{
+	float: left;
+	width: 50%;
+}
+#thong-tin h2{
+	padding-bottom: 7%;
+	font-family: 'Lobster', cursive;
+
+}
+.thong-tin-right{
+	width: 35%;
+	margin-left: 15%;
+	float: left;
+}
+.thong-tin-right>span{
+	margin: 8%;
+}
+#footer{
+	background-color: #41b5ae;
+	padding: 5% 8%;
+	border: 2px dashed white;
+}
+.size{
+	width: 90%;
+}
+form{
+	color: white;
+}
+/*laptop*/
+@media (min-width: 700px){
+	
+}
+/*tablet*/
+@media (max-width: 700px) and (min-width: 480px){
+	.menu>li>a{
+	font-size: 10px;
+	line-height: 18px;
+	margin-top: -8%;
+	}
+	#container{
+	margin-top: -31px;
+	}
+	.content{
+		width: 48%;
+	}
+	.thong-tin-left{
+		width: 95%;
+	}
+	.thong-tin-right{
+		width: 95%;
+		margin-left: 0;
+	}
+}
+/*smarphone*/
+@media (max-width: 480px){
+	.menu>li>a{
+	font-size: 6px;
+	line-height: 9px;
+	margin-top: -8%;
+	}
+	#container{
+	margin-top: -21px;
+	}
+	.content{
+		width: 95%;
+	}
+	.thong-tin-left{
+		width: 95%;
+	}
+	.thong-tin-right{
+		width: 95%;
+		margin-left: 0;
+	}
+	
+}
