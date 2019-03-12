@@ -12,6 +12,9 @@ a{
 .full{
 	width:100%;
 }
+/*#container{
+	pa
+}*/
 .container{
 	width:80%;
 	margin:0 auto;
@@ -152,11 +155,12 @@ a{
 .noi-dung{
 	width: 60%;
 	margin-left: 15px;
+	color: #7b7878;
 }
 .dang-chu-y{
 	background-color: #382d2d;
 	width: 100%;
-	height: auto;
+	height: 602px;
 	margin-top: 20px;
 	padding-bottom: 30px;
 }
