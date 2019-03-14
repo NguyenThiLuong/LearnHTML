@@ -1,0 +1,112 @@
+/*/*/*/*/*/*/*/*/*@keyframes move{
+	0%{
+		top: 0px;
+		left: 0px;
+	}
+	25%{
+		top: 0px;
+		left: 500px;
+		background-color: blue;
+	}
+	50%{
+		top: 500px;
+		left: 500px;
+		border-radius: 50%;
+	}
+	75%{
+		top: 500px;
+		left: 0px;
+	}
+	100%{
+		top: 0px;
+		left: 0px;
+	}
+}
+#container{
+	width: 80px;
+	height: 80px;
+	/*background-color: red;*/
+	background: rgba(123,65,45,0.5);
+	text-shadow: 5px 4px 3px grey;
+	box-shadow: 5px 4px 3px grey;
+	/*background: rgba(0.5);*/
+	background: linear-gradient(to right, red, orange, yellow, white);
+background: -o-linear-gradient(to right, red, orange, yellow, white);
+	background: -moz-linear-gradient(to right, red, orange, yellow, white);
+	background: -webkit-linear-gradient(to right, red, orange, yellow, white);
+	background: -ms-linear-gradient(to right, red, orange, yellow, white);
+
+	/*position: absolute;
+	animation-name: move; /*ten hieu ung*/
+	/*animation-duration: 4s; thoi gian xay ra hieu ung
+	animation-timing-function: linear; /*kieu di chuyen*/
+	/*animation-iteration-count: 2;*/*/*/ /*so lan lap*/ 
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+}
+#container:hover{
+	background-color: blue;
+	/*transform: rotate(360deg) scale(3,4);*/
+	transform: scale(3,4);
+	/*transform: skew();*/
+}
+*/*/*/*/*/*/*/*/*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+@keyframes shake{
+	0%{
+		transform: rotate(0deg);
+	}
+	33%{
+		transform: rotate(-45deg);
+	}
+	67%{
+		transform: rotate(45deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+@keyframes zoom{
+	0%{
+		transform: scale(1.5,1.5);
+		border: 5px solid white;
+		opacity: 0.5;
+	}
+	33%{
+		transform: rotate(-45deg);
+	}
+	67%{
+		transform: rotate(45deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+#circle{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 7px solid red;
+	background-color: rgb(40,70,120);
+	
+}
+.icon{
+	line-height: 100px;
+	text-align: center;
+	width: 100%;
+	font-size: 40px;
+	color: white;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-name: shake;
+	animation-timing-function: ease-in;
+}

@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: unset;
+	color: black;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+.clear{
+	clear: both;
+}
+#menu{
+	margin: 1% 5%;
+	width: 90%;
+}
+#menu>h1{
+	width: 35%;
+	float: left;
+}
+.color{
+	color: #ea5400;
+}
+.menu-right{
+	width: 60%;
+	font-size: 15px;
+	float: left;
+}
+.menu-right>ul>li{
+	float: left;
+	width: 18%;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.menu-chon{
+	display: none;
+	float: left;
+}
+.menu-right>ul>li>a:hover, .name>a:hover{
+	color: #ea5400;
+}
+#images>img{
+	width: 100%;
+}
+#container{
+	width: 100%;
+	margin-top: 4%;
+}
+.content-1{
+	padding: 5% 5%;
+}
+.items-1{
+	position: relative;
+	width: 24%;
+	height: 150px;
+    display: inline-block;
+}
+.icon{
+	border-radius: 50%;
+    background-color: #ea5400;
+    position: absolute;
+    color: white;
+    border: 15px solid #ea5400;
+}
+.canh-le-1{
+	left: 38%;
+}
+.name{
+	text-transform: uppercase;
+	padding-top: 100px;
+	font-size: 13px
+}
+.font-1{
+	font-size: 35px;
+}
+.content-2{
+	padding: 5% 5%;
+	width: 90%
+}
+.content-2>img{
+	padding-left: 4%;
+	width: 45%;
+	height: 250px;
+}
+.content-3{
+	padding: 6% 5%;
+	width: 90%;
+}
+.items-3{
+	width: 30%;
+	height: 195px;
+	float: left;
+	margin-right: 15px;
+}
+.noi-dung{
+	width: 84%;
+	padding-left: 50px;
+}
+.font-2{
+	font-size: 20px;
+}
+.font-3{
+	font-size: 25px;
+}
+.content-4{
+	width: 100%;
+	height: 300px;
+	background-color: #ea5400;
+	color: white;
+}
+.canh-le-4{
+	padding-top: 5%;
+}
+.items-4>li{
+	display: inline-block;
+    border-radius: 10%/47%;
+    background-color: white;
+    height: 30px;
+    line-height: 30px;
+    width: 134px;
+}
+.items-4>li>a:hover{
+	color: #ea5400;
+}
+.content-5{
+	width: 100%;
+	margin-top: 5%;
+}
+.font-5{
+	font-size: 30px;
+}
+.items-5{
+	display: inline-block;
+	width: 18%;
+	text-align: center;
+	margin: 4% 3%;
+}
+.items-5>img{
+	border-radius: 15px;
+}
+.content-6{
+	padding: 5% 4%;
+	background-color: #423a3a;
+	color: white;
+	float: left;
+}
+.content-6-left{
+	width: 28%;
+	float: left;
+	padding-right: 3%;
+}
+.icon-6{
+	background-color: black;
+	border-radius: 50%;
+	border: 10px solid black;
+}
+.content-6-center{
+	width: 28%;
+	float: left;
+	padding-right: 3%;
+}
+.content-6-right{
+	width: 28%;
+	float: left;
+}
+#footer{
+	padding: 2% 5%;
+	width: 90%;
+	background-color: black;
+	color: white;
+	float: left;
+}
+#footer>p{
+	float: left;
+	width: 50%;
+}
+#footer>ul>li{
+	width: 10%;	
+	float: left;
+}
+#footer>ul>li>a{
+	color: white;
+}
+/*laptop*/
+@media (min-width: 756px) {
+	
+}
+/*tablet*/
+@media (max-width: 756px) and (min-width: 480px){
+	.menu-right>ul>li{
+		font-size: 10px;
+	}
+	.fa-circle:before{
+		font-size: 50%;
+	}
+	.font-2 {
+    font-size: 17px;
+	}
+	.font-1 {
+    font-size: 22px;
+	}
+	.fa-2x{
+    font-size: 1em !important;
+	}
+	.canh-le-1{
+		left: 30%;
+	}
+	.font{
+		font-size: 11px;
+	}
+	.content-2>img{
+		width: 80%;
+	}
+	.items-3 {
+    width: 98%;
+    height: 130px;
+	}
+	.font-5 {
+    font-size: 23px;
+	}
+	.items-5{
+		width: 92%;
+	}
+	.items-5>img {
+    width: 24%;
+	}
+	.font-3 {
+    font-size: 19px;
+	}
+	.content-6-left, .content-6-center, .content-6-right{
+	 	width: 97%;
+	 	padding-bottom: 5%;
+	}
+	.fa-3x{
+    font-size: 2em !important;
+	}
+
+}
+/*phone*/
+@media (max-width: 480px){
+	.menu-right>ul>li{
+		display: none;
+	}
+	.menu-chon{
+		display: block;
+		float: right;
+	}
+	.fa-circle:before{
+		font-size: 50%;
+	}
+	.items-1{
+		width: 100%;
+	}
+	.content-1 {
+		margin: 11% 0;
+    	padding: 0 33%;
+    	background-color: #dedcdc26;
+	}
+	.font-2 {
+    	font-size: 17px;
+	}
+	.font-1 {
+    	font-size: 22px;
+	}
+	.fa-2x{
+    	font-size: 1em !important;
+	}
+	.canh-le-1{
+		left: 30%;
+	}
+	.font{
+		font-size: 11px;
+	}
+	.content-2>img{
+		width: 80%;
+	}
+	.items-3 {
+    width: 98%;
+    height: 130px;
+	}
+	.font-5 {
+    font-size: 23px;
+	}
+	.items-5{
+		width: 92%;
+	}
+	.items-5>img {
+    width: 24%;
+	}
+	.font-3 {
+    font-size: 19px;
+	}
+	.content-6-left, .content-6-center, .content-6-right{
+	 	width: 97%;
+	 	padding-bottom: 5%;
+	}
+	.fa-3x{
+    font-size: 2em !important;
+	}
+}
