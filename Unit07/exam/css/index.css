@@ -59,14 +59,14 @@ body{
 	position: relative;
 	width: 24%;
 	height: 150px;
-    display: inline-block;
+	display: inline-block;
 }
 .icon{
 	border-radius: 50%;
-    background-color: #ea5400;
-    position: absolute;
-    color: white;
-    border: 15px solid #ea5400;
+	background-color: #ea5400;
+	position: absolute;
+	color: white;
+	border: 15px solid #ea5400;
 }
 .canh-le-1{
 	left: 38%;
@@ -119,11 +119,11 @@ body{
 }
 .items-4>li{
 	display: inline-block;
-    border-radius: 10%/47%;
-    background-color: white;
-    height: 30px;
-    line-height: 30px;
-    width: 134px;
+	border-radius: 10%/47%;
+	background-color: white;
+	height: 30px;
+	line-height: 30px;
+	width: 134px;
 }
 .items-4>li>a:hover{
 	color: #ea5400;
@@ -194,51 +194,53 @@ body{
 /*tablet*/
 @media (max-width: 756px) and (min-width: 480px){
 	.menu-right>ul>li{
-		font-size: 10px;
+		font-size: 9px;
+		line-height: 30px;
+		width: 20%;
 	}
 	.fa-circle:before{
 		font-size: 50%;
 	}
 	.font-2 {
-    font-size: 17px;
+		font-size: 17px;
 	}
 	.font-1 {
-    font-size: 22px;
+		font-size: 22px;
 	}
 	.fa-2x{
-    font-size: 1em !important;
+		font-size: 1em !important;
 	}
 	.canh-le-1{
 		left: 30%;
 	}
 	.font{
-		font-size: 11px;
+		font-size: 12px;
 	}
 	.content-2>img{
 		width: 80%;
 	}
 	.items-3 {
-    width: 98%;
-    height: 130px;
+		width: 98%;
+		height: 130px;
 	}
 	.font-5 {
-    font-size: 23px;
+		font-size: 23px;
 	}
 	.items-5{
 		width: 92%;
 	}
 	.items-5>img {
-    width: 24%;
+		width: 24%;
 	}
 	.font-3 {
-    font-size: 19px;
+		font-size: 19px;
 	}
 	.content-6-left, .content-6-center, .content-6-right{
-	 	width: 97%;
-	 	padding-bottom: 5%;
+		width: 97%;
+		padding-bottom: 5%;
 	}
 	.fa-3x{
-    font-size: 2em !important;
+		font-size: 2em !important;
 	}
 
 }
@@ -259,17 +261,17 @@ body{
 	}
 	.content-1 {
 		margin: 11% 0;
-    	padding: 0 33%;
-    	background-color: #dedcdc26;
+		padding: 0 33%;
+		background-color: #dedcdc57;
 	}
 	.font-2 {
-    	font-size: 17px;
+		font-size: 16px;
 	}
 	.font-1 {
-    	font-size: 22px;
+		font-size: 20px;
 	}
 	.fa-2x{
-    	font-size: 1em !important;
+		font-size: 1em !important;
 	}
 	.canh-le-1{
 		left: 30%;
@@ -281,26 +283,29 @@ body{
 		width: 80%;
 	}
 	.items-3 {
-    width: 98%;
-    height: 130px;
+		width: 98%;
+		height: 130px;
+	}
+	.items-4>li {
+		width: 115px;
 	}
 	.font-5 {
-    font-size: 23px;
+		font-size: 23px;
 	}
 	.items-5{
 		width: 92%;
 	}
 	.items-5>img {
-    width: 24%;
+		width: 24%;
 	}
 	.font-3 {
-    font-size: 19px;
+		font-size: 19px;
 	}
 	.content-6-left, .content-6-center, .content-6-right{
-	 	width: 97%;
-	 	padding-bottom: 5%;
+		width: 97%;
+		padding-bottom: 5%;
 	}
 	.fa-3x{
-    font-size: 2em !important;
+		font-size: 2em !important;
 	}
 }
