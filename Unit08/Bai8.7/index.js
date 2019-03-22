@@ -70,18 +70,15 @@ var n;
 n=enterNumberic("n");
 
 for (var i = 1; i <= n; i++) {
-	for (var j = 1; j <= 31; j++) {
+	for (var j = 1; j <= 25; j++) {
 		if (j>=1 && j<=7) {
 			//hinh 1: tam giac
-			for (var k = 1; k <= 7; k++) {
-				if (k<=i) {
-					document.write("*");
-				}
-				else{
-					document.write("&nbsp ");
-				}
+			if (j<=i) {
+				document.write("*");
 			}
-			//document.write("<br>");
+			else{
+				document.write("&nbsp ");
+			}
 		}
 		//khoang trang
 		else if (j>=8 && j<9) {
@@ -89,10 +86,7 @@ for (var i = 1; i <= n; i++) {
 		}
 		//hinh 2: chu nhat dac
 		else if (j>=9 && j<=15) {
-			for (var k = 1; k <= n; k++) {
-				document.write("*");
-			}
-			//document.write("<br>");
+			document.write("*");
 		}
 		//khoang trang
 		else if (j>=16 && j<17) {
@@ -100,23 +94,20 @@ for (var i = 1; i <= n; i++) {
 		}
 		//hinh 3: chu nhat rong
 		else if (j>=17 && j<=23) {
-			for (var k = 1; k <= n; k++){
-				if (i==1||k==1||i==n||k==n) {
-					document.write("*");
-				}
-				else{
-					document.write("&nbsp ");
-				}
+			if (i==1||j==17||i==n||j==23) {
+				document.write("*");
+			}
+			else{
+				document.write("&nbsp ");
 			}
 			//document.write("<br>");
 		}
-		
 		// khoảng trắng
 		else if (j>=24 && j<25) {
 			document.write("&nbsp ");
 		}
 		//hình 4: hình tam giác
-		else if (j>=25 && j<=31) {
+		else if (j=25) {
 			for (var k = n; k >=1; k--){
 				if (k>=i) {
 					document.write("*");
@@ -125,9 +116,7 @@ for (var i = 1; i <= n; i++) {
 					document.write("&nbsp ");
 				}
 			}
-			//document.write("<br>");
 		}
-		//document.write("<br>");
 	}
 	document.write("<br>");
 }
