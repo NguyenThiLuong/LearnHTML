@@ -607,10 +607,7 @@ a{
 	background-color: black;
 	color: white;
 	padding: 5% 0;
-}
-.content-11-1{
-	width: 20%;
-	display: inline-block;
+	float: left;
 }
 .content-11-1>ul>li{
 	width: 45%;
@@ -624,7 +621,81 @@ a{
 .content-11-1>ul>li>span{
 	font-size: 12px;
 }
-.content-11-2{
-	width: 20%;
+.content-11-1, .content-11-2, .content-11-3, .content-11-4{
+	width: 23%;
+    margin-right: 1%;
+	float: left;
+}
+.font-11-1>li{
+	margin: 5% 0;
+	font-size: 18px;
+}
+.font-11-2>li, .font-11-3{
+	padding: 1% 6%;
 	display: inline-block;
+	margin-top: 5%;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ce5d11;
+}
+.content-11-3>ul{
+	margin-top: 28%;
+    margin-bottom: 35%;
+    width: 100%;
+}
+.content-11-3>ul>li{
+	display: inline-block;
+	width: 23%;
+}
+.content-11-3>ul>li>img{
+	width: 100%;
+    border-radius: 15%;
+}
+.content-11-3>input{
+	padding: 4%;
+    margin: 17% 0;
+    width: 90%;
+}
+.content-11-4 input{
+	background-color: #504b4b;
+    border: 1px solid #504b4b;
+}
+.items-11-1>li{
+	width: 40%;
+    display: inline-block;
+}
+.items-11-1>li>input{
+	width: 80%;
+    padding: 8%;
+}
+.content-11-4 >input{
+	padding: 30% 11%;
+}
+.font-11-4-1{
+	margin-bottom: 17%;
+}
+.items-11-1{
+	margin-bottom: 10%;
+}
+.content-12{
+	background-color: #292626;
+	color: white;
+}
+.font-12-1{
+	font-size: 16px;
+}
+.content-12 ul>li{
+	display: inline-block;
+	width: 24%;
+	margin: 5% 0;
+}
+.circle-12{
+	color: #c9a96e;
+    border-radius: 50%;
+    padding: 3%;
+    width: 6%;
+    border: 2px solid #c9a96e;
+}
+.font-12-2{
+	padding-bottom: 5%;
 }
