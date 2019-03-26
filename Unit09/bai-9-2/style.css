@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+input{
+	width: 60px;
+}
+table{
+	margin: 30px;
+	border-collapse: collapse;
+	background-color: #92aecca1;
+}
+table,td{
+	border: 1px solid white;
+}
+td{
+	padding: 10px;
+}
+.check{
+	padding: 5px;
+    margin: 0 30px;
+    background-color: #657ce2;
+}
+.uncheck{
+	padding: 5px;
+	background-color: #657ce2;
+}

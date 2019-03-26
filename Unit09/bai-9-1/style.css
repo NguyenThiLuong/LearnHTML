@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.ong{
+	float: left;
+	margin-left: 20px;
+}
+.ong>p{
+	position: absolute;
+	left: 0;
+	background-color: #f3f3f2;
+	margin: 0;
+	padding: 20px;
+	width: 70%;
+	margin-left: 20px;
+	height: 100px;
+	overflow: auto;
+	display: none;
+}
+.ong>p>span{
+	font-weight: bold;
+	font-size: 22px;
+}
+.ong>button{
+	margin-top: 10px;
+	padding: 10px 20px;
+	background-color: #5e615d;
+	color: white;
+	border-color: #5e615d;
+}
