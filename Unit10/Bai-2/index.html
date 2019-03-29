@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bai-10-2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form name="formDangKy">
+		<table>
+			<tr>
+				<td class="title">Họ và tên</td>
+				<td class="content cdai"><input type="text" name="hoTen" value="" placeholder="Nhập họ tên..."></td>
+				<td class="tbao"><p id="tBaoHoTen"></p></td>
+			</tr>
+			<tr>
+				<td class="title">Giới tính</td>
+				<td class="content">
+					<input type="radio" name="gioiTinh" value="Nam" placeholder="" required>Nam
+					<input type="radio" name="gioiTinh" value="Nữ" placeholder="">Nữ
+				</td>
+				<td class="tbao"></td>
+			</tr>
+			<tr>
+				<td class="title">Email</td>
+				<td class="content cdai"><input type="text" name="email" value="" placeholder="Nhập email..."></td>
+				<td class="tbao"><p id="tBaoEmail"></p></td>
+			</tr>
+			<tr>
+				<td class="title">Số điện thoại</td>
+				<td class="content cdai"><input type="text" name="sDT" value="" placeholder="Nhập số điện thoại..."></td>
+				<td class="tbao"><p id="tBaoSDT"></p></td>
+			</tr>
+			<tr>
+				<td class="title">Mật khẩu</td>
+				<td class="content cdai"><input type="password" name="matKhau" value="" placeholder=""></td>
+				<td class="tbao"><p id="tBaoMatKhau"></p></td>
+			</tr>
+			<tr>
+				<td class="title">Xác nhận mật khẩu</td>
+				<td class="content cdai"><input type="password" name="xnmatKhau" value="" placeholder=""></td>
+				<td class="tbao"><p id="tBaoXNMK"></p></td>
+			</tr>
+		</table>
+		<input class="btn" type="submit" name="" value="Đăng ký">
+		<input class="btn" type="button" name="" value="Xoá trắng">
+	</form>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #d2cece9c;
+}
+form{
+	width: 70%;
+	margin: 50px auto;
+}
+table{
+	background-color: white;
+	border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 5px;
+    box-shadow: 1px 1px 19px 1px;
+}
+.title{
+	width: 170px;
+}
+tr{
+	height: 40px;
+	width: 630px;
+}
+.content{
+	width: 260px;
+}
+.cdai>input{
+	width: 95%;
+}
+.btn{
+	margin: 20px 100px;
+    padding: 6px;
+    background-color: #ff0000ed;
+    color: white;
+    cursor: pointer;
+}
+.tbao{
+	width: 200px;
+	color: red;
+}
