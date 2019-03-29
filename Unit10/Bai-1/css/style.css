@@ -25,15 +25,19 @@ li{
 	opacity: 1 !important;
 }
 .button{
-	background-color: #04040463;
+	background-color: black;
 	border: none;
-	color: #ffffff8f;
+	color: white;
 	padding: 12px 13px;
 	font-size: 18px;
 	cursor: pointer;
 	position: absolute;
     z-index: 2;
     top: 100px;
+    opacity: 0.5;
+}
+.button:hover{
+	opacity: 1;
 }
 .prev{
 	left: 0;
