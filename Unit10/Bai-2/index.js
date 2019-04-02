@@ -2,9 +2,8 @@ var formDangKy = document.getElementsByTagName("form")[0];
 formDangKy.gioiTinh.value='Nam';
 
 
-formDangKy.addEventListener("submit",function(){
+document.getElementsByClassName("dangKy")[0].addEventListener("click",function(){
 
-	var tBaoHoTen = document.getElementById("tBaoHoTen");
 	var tBaoEmail = document.getElementById("tBaoEmail");
 	var tBaoSDT = document.getElementById("tBaoSDT");
 	var tBaoMatKhau = document.getElementById("tBaoMatKhau");
@@ -15,25 +14,28 @@ formDangKy.addEventListener("submit",function(){
 	dotpos = emailID.lastIndexOf(".");
 
 	if (formDangKy.hoTen.value == "" || formDangKy.hoTen.value.length<=8) {
-		tBaoHoTen.innerHTML = "Yêu cầu nhập đầy đủ họ tên";
-		formDangKy.hoTen.focus();
+		formDangKy.hoTen.parentNode.nextElementSibling.innerHTML = "Nhap 8 ki tu";
+	}
+	else {
+		formDangKy.hoTen.parentNode.nextElementSibling.innerHTML = "";
 	}
 
-	else if(emailID = "" ||atpos < 1 || ( dotpos - atpos < 2 )) {
-		tBaoEmail.innerHTML = "Yêu cầu nhập email";
+	if(emailID = "" ||atpos < 1 || ( dotpos - atpos < 2 )) {
+		formDangKy.email.parentNode.nextElementSibling.innerHTML = "Yêu cầu nhập email";
 		formDangKy.email.focus();
 	}
-	
-	else if (formDangKy.sDT.value == "") {
-		tBaoSDT.innerHTML = "Yêu cầu nhập số điện thoại";
+	// regex = /^0\d{9,10}$/g
+	// !regex.test(formDangKy.sDT.value)
+	if (formDangKy.sDT.value == "") {
+		formDangKy.sDT.parentNode.nextElementSibling.innerHTML = "Yêu cầu nhập số điện thoại";
 		formDangKy.sDT.focus();
 	}
-	else if (isNaN(formDangKy.sDT.value) == true) {
-		tBaoSDT.innerHTML = "Yêu cầu nhập số";
+	if (isNaN(formDangKy.sDT.value) == true) {
+		formDangKy.sDT.parentNode.nextElementSibling.innerHTML = "Yêu cầu nhập số";
 		formDangKy.sDT.focus();
 	}
 	
-	else if (formDangKy.matKhau.value == "" || formDangKy.xnmatKhau.value == "") {
+	if (formDangKy.matKhau.value == "" || formDangKy.xnmatKhau.value == "") {
 		tBaoMatKhau.innerHTML = "Yêu cầu nhập mật khẩu";
 		tBaoXNMK.innerHTML = "Yêu cầu nhập mật khẩu xác nhận";
 		formDangKy.matKhau.focus();

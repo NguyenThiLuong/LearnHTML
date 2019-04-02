@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		.color{
+			padding: 20px;
+			border: 1px solid black;
+			margin: 20px;
+		}
+		div{
+			margin-top: 30px;
+		}
+	</style>
+	<!-- //<script type="text/javascript">
+	//	function change(){
+			// var box = document.getElementById("box");
+			// box.checked = true;
+			// box.value = "abc";
+			// box.className = "test";
+			//var text = document.getElementsByClassName("text");
+			var text = document.getElementsByTagName("div");
+			for (var i = 0; i < text.length; i++) {
+				text[i].style.display="none";
+			}
+			//var text = document.getElementById("text");
+			//text.style.display="none";
+			// text.style.width = "300px";
+			// text.style.height = "300px";
+			// text.style.color = "green";
+			// text.style.borderColor = "yellow";
+			// text.style.borderWidth = "1px";
+			// text.style.borderStyle = "solid";
+		}
+	//</script> -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		$(function(){  //tuong duong ham onload
+
+			$(".color").each(function(){ // ~ for
+				$(this).css("background-color",$(this).attr("id"));
+			});
+
+			$(".color").mouseenter(function(){
+				$("div").css("background-color",$(this).attr("id"));
+			});
+
+			$(".color").mouseleave(function(){
+				$("div").css("background-color","white");
+			});
+		});
+
+		function changeBg(text){
+			text.style.backgroundColor = "yellow";
+		}
+		function resetBg(text){
+			text.style.backgroundColor = "white";
+		}
+		function changeColor(opt){
+			var div = document.getElementsByTagName("div");
+			div[0].style.backgroundColor = opt.value;
+
+		}
+	</script>
+
+</head>
+<body>
+	<input type="text" name="" value="" placeholder="search...." onfocus="changeBg(this)" onblur="resetBg(this)">
+	<select id="opt" name="">
+		<option value="">--Select--</option>
+		<option value="red">red</option>
+		<option value="blue">blue</option>
+		<option value="yellow">yellow</option>
+		<option value="green">green</option>
+	</select>
+	<span id="red" class="color"></span>
+	<span id="blue" class="color" ></span>
+	<span id="purple" class="color"></span>
+	<span id="yellow" class="color" ></span>
+	<span id="green" class="color"></span>
+	<!-- <input type="button" name="" onmouseover="change()" value="Hide"> -->
+	<div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	
+</body>
+</html>
