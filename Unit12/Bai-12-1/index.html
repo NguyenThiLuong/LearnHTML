@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<form id="example-advanced-form" action="#">
+		<h3>1.Account</h3>
+		<fieldset class="tab" >
+			<legend>Account Information</legend><br>
+
+			<label for="userName-2">User name *</label><br>
+			<input id="userName-2" name="userName" type="text"><br>
+			<label for="password-2">Password *</label><br>
+			<input id="password-2" name="password" type="password"><br>
+			<label for="confirm-2">Confirm Password *</label><br>
+			<input id="confirm-2" name="confirm" type="password" class="confirm-2"><br>
+			<p>(*) Mandatory</p>
+		</fieldset>
+
+		<h3>2.Profile</h3>
+		<fieldset class="tab">
+			<legend>Profile Information</legend><br>
+
+			<label for="name-2">First name *</label><br>
+			<input id="name-2" name="name" type="text"><br>
+			<label for="surname-2">Last name *</label><br>
+			<input id="surname-2" name="surname" type="text"><br>
+			<label for="email-2">Email *</label><br>
+			<input id="email-2" name="email" type="text"><br>
+			<label for="address-2">Address</label><br>
+			<input id="address-2" name="address" type="text"><br>
+			<label for="age-2">Age (The warning step will show up if age is less than 18) *</label><br>
+			<input id="age-2" name="age" type="number"><br>
+			<p>(*) Mandatory</p>
+		</fieldset>
+
+		<h3>3.Warning</h3>
+		<fieldset class="tab">
+			<legend>You are to young</legend><br>
+
+			<p>Please go away ;-)</p><br>
+		</fieldset>
+
+		<h3>4.Finish</h3>
+		<fieldset class="tab">
+			<legend>Terms and Conditions</legend><br>
+
+			<input id="acceptTerms-2" name="acceptTerms" type="checkbox"> <label for="acceptTerms-2">I agree with the Terms and Conditions.</label>
+		</fieldset>
+		
+		<div style="clear: both;"></div>
+		<div class="items">
+			<button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+			<button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+		</div>
+		
+	</form>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
