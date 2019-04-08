@@ -1,0 +1,797 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inp",
+				"inputn\tinput - number"
+			],
+			[
+				"u",
+				"underline\ttext-decoration"
+			],
+			[
+				"bo",
+				"border-bottom\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"bord",
+				"border\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"tbo",
+				"tbody\tTag"
+			],
+			[
+				"colo",
+				"colors"
+			],
+			[
+				"par",
+				"parentNode\t: Node Node"
+			],
+			[
+				"getEE",
+				"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Element"
+			],
+			[
+				"getEl",
+				"getElementsByTagName\t( localName: DOMString ): HTMLCollection Element"
+			],
+			[
+				"pl",
+				"plusDivs"
+			],
+			[
+				"cla",
+				"className\t: DOMString Element"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"firs",
+				"firstElementChild\t: Element Element"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"ch",
+				"children\t: HTMLCollection Element"
+			],
+			[
+				"getE",
+				"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Element"
+			],
+			[
+				"add",
+				"addEventListener\t( type: DOMString, callback: EventListener, capture?: boolean ): void EventTarget"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"bac",
+				"background\t Style CSS"
+			],
+			[
+				"button",
+				"button\tTag"
+			],
+			[
+				"o",
+				"overflow\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"backgro",
+				"background-size\tproperty"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"next",
+				"nextElementSibling\t: Element Element"
+			],
+			[
+				"le",
+				"left\tproperty"
+			],
+			[
+				"ab",
+				"absolute\tposition"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"inpu",
+				"inputc\tinput - checkbox"
+			],
+			[
+				"doc",
+				"document\t: Document Window"
+			],
+			[
+				"pars",
+				"parseFloat\t( s: string ): double Global"
+			],
+			[
+				"bl",
+				"block\tdisplay"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"col",
+				"colors"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"id",
+				"id\tAttr"
+			],
+			[
+				"selec",
+				"select\tTag"
+			],
+			[
+				"onlu",
+				"onblur\tAttr"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"scrip",
+				"script\tTag"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"border",
+				"border-top\tproperty"
+			],
+			[
+				"butt",
+				"button\tTag"
+			],
+			[
+				"p",
+				"padding\tproperty"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"hi",
+				"hinh4"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"scri",
+				"script\tTag"
+			],
+			[
+				"v",
+				"value\tAttr"
+			],
+			[
+				"input",
+				"input\tTag"
+			],
+			[
+				"li",
+				"line-height\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"lorem",
+				"lorem\tLorem ipsum"
+			],
+			[
+				"but",
+				"button\tTag"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"ea",
+				"ease-in\tanimation-timing-function"
+			],
+			[
+				"ani",
+				"animation-iteration-count\tproperty"
+			],
+			[
+				"fonts",
+				"font-size\tproperty"
+			],
+			[
+				"r",
+				"rgba()\tbackground"
+			],
+			[
+				"tra",
+				"transform\tproperty"
+			],
+			[
+				"tr",
+				"transform\tproperty"
+			],
+			[
+				"tran",
+				"transition-timing-function\tproperty"
+			],
+			[
+				"sy",
+				"style\tAttr"
+			],
+			[
+				"style",
+				"style\tTag"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"paddi",
+				"padding-left\tproperty"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"meta",
+				"meta\tTag"
+			],
+			[
+				"vid",
+				"video\t<video>"
+			],
+			[
+				"au",
+				"audio\t<audio>"
+			],
+			[
+				"sec",
+				"section\tTag"
+			],
+			[
+				"hea",
+				"header\t<header>"
+			],
+			[
+				"b",
+				"b\tTag"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"j",
+				"justify\ttext-align"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"l",
+				"left\tproperty"
+			],
+			[
+				"bod",
+				"border\tproperty"
+			],
+			[
+				"he",
+				"height\tproperty"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"borde",
+				"border-radius\tproperty"
+			],
+			[
+				"bacc",
+				"background-color\tproperty"
+			],
+			[
+				"un",
+				"unset\ttext-decoration"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"rea",
+				"background-repeat\tproperty"
+			],
+			[
+				"ov",
+				"overflow\tproperty"
+			],
+			[
+				"de",
+				"text-decoration\tproperty"
+			],
+			[
+				"bode",
+				"border\tproperty"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"cl",
+				"clear\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"td",
+				"td\tTag"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"br",
+				"br\t<br>"
+			],
+			[
+				"al",
+				"text-align\tproperty"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"spa",
+				"span\tTag"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"sel",
+				"select\tTag"
+			],
+			[
+				"form",
+				"form\tTag"
+			],
+			[
+				"tab",
+				"table\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"i:",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit12/Bai-12-1/js/script.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit12/Bai-12-1/slide.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit12/demo/js/script.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit12/demo/css/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit12/demo/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit11/Bai-11-2/Bai-11-2.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit11/Bai-11-2/css/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit11/Bai-11-2/js/script.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit11/Bai-11-1/bai11-1.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit11/Bai-11-1/js/script.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Thuc-hanh-02/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Thuc-hanh-02/css/index.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit11/Bai-11-1/css/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit11/demo/demo.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit11/Bai-11-1/css/font-awesome.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit09/demo/demo.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit11/demo/js/scrip.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit10/Bai-2/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit10/Bai-2/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit10/Bai-2/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit10/Bai-1/css/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit10/Bai-1/vd.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit10/Bai-1/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit10/Bai-1/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit10/Bai-1/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/demo/demo.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit10/demo/demo.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/demo/demo.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit09/bai-9-1/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit09/bai-9-1/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit07/exam/css/index.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit07/exam/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit09/bai-9-3/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit09/bai-9-3/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit09/bai-9-3/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Thuc-hanh-03/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit09/bai-9-2/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit09/bai-9-2/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit09/bai-9-2/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit09/bai-9-1/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Thuc-hanh-03/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.7/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.7/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.6/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.4/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.3/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.6/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.5/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.5/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.4/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.3/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.2/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.2/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.1/index.js",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/Bai8.1/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit08/demo/css/demo.css",
+		"/C/Users/luong/Documents/Zent/in.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit07/demo/css/demo.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit07/demo/demo.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit05/demo/css/demo.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit06/Exam/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit06/Exam/css/index.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit05/demo/demo.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit06/demo.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit06/demo.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit06/css/demo.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit05/demo/demo.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit05/demo/css/font-awesome.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/bai4-2/index.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/bai4-2/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/bai4-1/index.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/bai4-1/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit01/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/demo/demo-menu.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/demo/font-icon/css/font-awesome.min.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/demo/demo-menu.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/demo/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/demo/index.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/bai4-2/24h_logo_trang_chu_2015.png",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/demo/demo.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit04/demo/demo.html",
+		"/C/Users/luong/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/bai3_2/index.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/bai3_2/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/bai3_2/vd.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/Bai3_1/bai2/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/bai3_2/vd.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/Bai3_1/bai2/stlye.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/Bai3_1/Bai1/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/demo/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/Bai3_1/Bai1/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/div.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit03/style.css",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit02/Bai2_5.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit02/Bai2_3.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit02/Bai2_4.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit02/form.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit02/Bai2_2.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit02/Bai2_1.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit02/demo2.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit02/demo.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit02/index.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit01/Bai1_1.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit01/Bai1_5.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit01/Bai1_2.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit01/Bai1_4.html",
+		"/C/Users/luong/Documents/Zent/WebFontend24/Unit01/Bai1_3.html"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 84.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

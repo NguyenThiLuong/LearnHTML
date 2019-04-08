@@ -1,0 +1,138 @@
+.img-mo-dau{
+	position: relative;
+}
+.navbar{
+	padding: .5rem 10rem !important;
+}
+.mau-white{
+	color: white !important;
+}
+.mau-black{
+	color: black;
+}
+.mau-orange{
+	color: rgba(232, 79, 18, 0.85) !important;
+}
+.mau-ghi{
+	color: #a09a9a;
+}
+.jumbotron-1{
+	position: absolute;
+	background-color: #ffffff00!important;
+	top: 150px;
+    text-align: center;
+}
+.jumbotron-1 hr{
+    width: 89px;
+    border-top: 2px solid rgba(232, 79, 18, 0.85) !important;
+}
+.btn-color-1 {
+    background-color: rgba(232, 79, 18, 0.85) !important;
+    border-color: rgba(232, 79, 18, 0.85) !important;
+}
+.jumbotron-2{
+	background-color: rgba(232, 79, 18, 0.85) !important;
+	top: 150px;
+    text-align: center;
+}
+.jumbotron-2 hr{
+    width: 89px;
+    border-top: 2px solid white !important;
+}
+.btn-lg{
+	border-radius: 2.3rem !important;
+}
+.btn-color-2 {
+    background-color: white !important;
+    border-color: white !important;
+}
+.jumbotron-3{
+	background-color: white !important;
+	top: 150px;
+    text-align: center;
+}
+.jumbotron-3 hr{
+    width: 89px;
+    border-top: 2px solid rgba(232, 79, 18, 0.85) !important;
+}
+.card{
+	border: 0 !important;
+	padding: 3rem 0;
+}
+.col-12, .col-12, .col-12{
+	padding: 0 !important;
+}
+.img-thumbnail{
+	padding: 0 !important;
+	border: 0!important;
+    border-radius: 0!important;
+}
+.jumbotron-4{
+	background-color: black !important;
+    text-align: center;
+}
+.jumbotron-5{
+	background-color: white !important;
+    text-align: center;
+    padding: 0 2rem!important;
+}
+.jumbotron-5 hr{
+    width: 89px;
+    border-top: 2px solid rgba(232, 79, 18, 0.85) !important;
+}
+
+@media (min-width: 992px){
+	.mau-nen {
+    	background-color: #343a40!important;
+	}
+	.jumbotron-1, .jumbotron-2, .jumbotron-4{
+		padding: 4rem 16rem !important;
+	}
+}
+@media (max-width: 992px) and (min-width: 576px){
+	.navbar-dark .navbar-brand {
+    	color: #e6560e !important;
+	}
+	.mau-nen {
+    	background-color: #ffffff!important;
+	}
+	.navbar-toggler{
+		background-color: #fd7c42!important;
+	}
+	.navbar{
+		padding: .5rem !important;
+	}
+	.display-4 {
+    	font-size: 2.5rem !important;
+    	line-height: 1!important;
+	}
+	.jumbotron-1, .jumbotron-2{
+		top: 60px !important;
+	}
+}
+@media (max-width: 576px){
+	.navbar-dark .navbar-brand {
+    	color: #e6560e !important;
+	}
+	.mau-nen {
+    	background-color: #ffffff!important;
+	}
+	.navbar-toggler{
+		background-color: #fd7c42!important;
+	}
+	.navbar{
+		padding: .5rem !important;
+	}
+	.display-4 {
+    	font-size: 1.7rem !important;
+    	line-height: 1!important;
+	}
+	.jumbotron-1, .jumbotron-2{
+		top: 40px !important;
+	}
+	.jumbotron-1 .btn-lg{
+		padding: .3rem 1rem !important;
+    	font-size: 1rem !important;
+    	line-height: 1 !important;
+	}
+}
