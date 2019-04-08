@@ -55,6 +55,9 @@
     width: 89px;
     border-top: 2px solid rgba(232, 79, 18, 0.85) !important;
 }
+.row-3{
+	margin-right: 0!important;
+}
 .card{
 	border: 0 !important;
 	padding: 3rem 0;

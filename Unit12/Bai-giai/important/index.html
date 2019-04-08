@@ -1,14 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
-</head>
-<body>
-	
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<form id="formDangKy">
+		<div id="container">
+			<div id="step1" class="step active">
+				<p>Step 1</p>
+				<div>
+					User name:<br>
+					<input type="text" id="username" name="" value="">
+					<span class="error"></span><br>
+
+					Password:<br>
+					<input type="text" id="password" name="" value="">
+					<span class="error"></span><br>
+
+					Confirm:<br>
+					<input type="text" id="confirm" name="" value="">
+					<span class="error"></span><br>
+				</div>
+			</div>
+			<div id="step2" class="step ">
+				<p>Step 2</p>
+				<div>
+					First name:<br>
+					<input type="text" id="firstName" name="" value="">
+					<span class="error"></span><br>
+
+					Last name:<br>
+					<input type="text" id="lastName" name="" value="">
+					<span class="error"></span><br>
+
+					Age:<br>
+					<input type="text" id="age" name="" value="">
+					<span class="error"></span><br>
+				</div>
+			</div>
+			<div id="step3" class="step ">
+				<p>Step 3</p>
+				<div>
+					<h3>Step 3</h3>
+				</div>
+			</div>
+			<div id="step4" class="step">
+				<p>Step 4</p>
+				<div>
+					<h3>Step 4</h3>
+					<input type="checkbox" id="term" name="" value="">
+				</div>
+			</div>
+			<div class="button">
+				<span id="back">Back</span>
+				<span id="next">Next</span>
+			</div>
+		</div>
+	</form>
 </body>
 </html>
