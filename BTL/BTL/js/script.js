@@ -94,6 +94,7 @@ var modal = $(this)
 modal.find('.modal-title').text(recipient)
 })
 
+
 $('.counter').counterUp({
 	delay: 10,
 	time: 1000

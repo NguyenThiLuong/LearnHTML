@@ -847,4 +847,7 @@ select {
 	.item-12-2{
 		left: 35%;
 	}
+	.border-bottom-lv-7, .border-right-lv-7{
+		border: 0;
+	}
 }

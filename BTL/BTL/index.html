@@ -393,24 +393,30 @@
 									</button>
 								</div>
 								<div class="modal-body">
-									<form>
+									<form action="/action_page.php" class="needs-validation" novalidate>
 										<div class="form-group">
 											<label for="recipient-name" class="col-form-label">Name:</label>
-											<input type="text" class="form-control" id="recipient-name" placeholder="Input field">
+											<input type="text" class="form-control" id="recipient-name" placeholder="Input field" required>
+											<div class="valid-feedback">Valid.</div>
+											<div class="invalid-feedback">Enter your name.</div>
 										</div>
 										<div class="form-group">
 											<label for="recipient-name" class="col-form-label">Email:</label>
-											<input type="text" class="form-control" id="recipient-name" placeholder="Input field">
+											<input type="text" class="form-control" id="recipient-name" placeholder="Input field" required>
+											<div class="valid-feedback">Valid.</div>
+											<div class="invalid-feedback">Enter email address.</div>
 										</div>
 										<div class="form-group">
 											<label for="recipient-name" class="col-form-label">Address:</label>
-											<input type="text" class="form-control" id="recipient-name" placeholder="Input field">
+											<input type="text" class="form-control" id="recipient-name" placeholder="Input field" required>
+											<div class="valid-feedback">Valid.</div>
+											<div class="invalid-feedback">Enter address.</div>
 										</div>
+										<button type="submit" class="btn btn-primary">Send</button>
 									</form>
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Send</button>
 								</div>
 							</div>
 						</div>
@@ -423,7 +429,7 @@
 				<p class="item-4-1 item-4-1-lv-6">Frequently Asked Questions</p>
 				<h2 class="item-4-2">Frequently Asked Questions</h2><br><br>
 				<div class="row">
-					<div class="col-lg-6 col-sm-6 col-6 border-right-lv-7 border-bottom-lv-7">
+					<div class="col-lg-6 col-sm-6 col-12 border-right-lv-7 border-bottom-lv-7">
 						<div class="card card-lv-7 card-lv-7-left wow bounceInLeft">
 							<div class="card-body card-body-lv-7 card-lv-7-1">
 								<h5 class="card-title-7">We Believe that Interior beauty Lasts Long</h5>
@@ -431,7 +437,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-sm-6 col-6 border-bottom-lv-7">
+					<div class="col-lg-6 col-sm-6 col-12 border-bottom-lv-7">
 						<div class="card card-lv-7 card-lv-7-right wow bounceInRight">
 							<div class="card-body card-body-lv-7 card-lv-7-2">
 								<h5 class="card-title-7">We Believe that Interior beauty Lasts Long</h5>
@@ -439,7 +445,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-sm-6 col-6 border-right-lv-7 border-bottom-lv-7">
+					<div class="col-lg-6 col-sm-6 col-12 border-right-lv-7 border-bottom-lv-7">
 						<div class="card card-lv-7 card-lv-7-left">
 							<div class="card-body card-body-lv-7">
 								<h5 class="card-title-7">We Believe that Interior beauty Lasts Long</h5>
@@ -447,7 +453,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-sm-6 col-6 border-bottom-lv-7">
+					<div class="col-lg-6 col-sm-6 col-12 border-bottom-lv-7">
 						<div class="card card-lv-7 card-lv-7-right wow bounceInRight">
 							<div class="card-body card-body-lv-7 card-lv-7-2">
 								<h5 class="card-title-7">We Believe that Interior beauty Lasts Long</h5>
@@ -455,7 +461,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-sm-6 col-6 border-right-lv-7">
+					<div class="col-lg-6 col-sm-6 col-12 border-right-lv-7">
 						<div class="card card-lv-7 card-lv-7-left wow	bounceIn">
 							<div class="card-body card-body-lv-7 card-lv-7-1">
 								<h5 class="card-title-7">We Believe that Interior beauty Lasts Long</h5>
@@ -463,7 +469,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-sm-6 col-6">
+					<div class="col-lg-6 col-sm-6 col-12">
 						<div class="card card-lv-7 card-lv-7-right wow	bounceInUp">
 							<div class="card-body card-body-lv-7">
 								<h5 class="card-title-7">We Believe that Interior beauty Lasts Long</h5>
@@ -724,7 +730,7 @@
 								</div>
 							</div>
 						</div> 
-						<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+						<div class="modal fade" id="image-gallery" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
 							<div class="modal-dialog"> 
 								<div class="modal-content"> 
 									<div class="modal-header"> 
@@ -815,6 +821,22 @@
 	<script src="js/jquery.counterup.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-	
+	<script>
+		(function() {
+			'use strict';
+			window.addEventListener('load', function() {
+				var forms = document.getElementsByClassName('needs-validation');
+				var validation = Array.prototype.filter.call(forms, function(form) {
+					form.addEventListener('submit', function(event) {
+						if (form.checkValidity() === false) {
+							event.preventDefault();
+							event.stopPropagation();
+						}
+						form.classList.add('was-validated');
+					}, false);
+				});
+			}, false);
+		})();
+	</script>
 </body>
 </html>
